@@ -218,3 +218,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# DATA1030 project data
+/data/raw/
+/data/processed/
+/data/modeling/
+
+# Generated datasets
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.jsonl
+
+# Local credentials
+.env.*
+.DS_Store
+
+# Jupyter temporary files
+*.nbconvert.ipynb
