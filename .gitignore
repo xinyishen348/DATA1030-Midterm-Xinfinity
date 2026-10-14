@@ -224,14 +224,8 @@ __marimo__/
 /data/processed/
 /data/modeling/
 
-# Generated datasets
-*.csv
-*.tsv
-*.parquet
-*.feather
-*.jsonl
-
 # Local credentials
+.env
 .env.*
 .DS_Store
 
