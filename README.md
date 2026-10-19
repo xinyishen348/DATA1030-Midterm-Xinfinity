@@ -49,19 +49,24 @@ DATA1030-Midterm-Xinfinity/
 │   ├── processed/
 │   ├── modeling/
 │   └── data_contract.md
-├── notebooks/
-│   └── 00_shared_preprocessing.ipynb
-├── src/
-│   ├── collect/
-│   ├── preprocessing/
-│   ├── features/
-│   └── analysis/
 ├── figures/
 ├── results/
 ├── report/
+├── src/
+│   ├── analysis/
+│   │   ├── 01_EDA.ipynb
+│   │   ├── 02_EDA.ipynb
+│   │   └── 03_EDA.ipynb
+│   ├── preprocessing/
+│   │   └── 00_shared_preprocessing.ipynb
+│   ├── collect/
+│   └── features/
 ├── tests/
 ├── environment.yml
+├── .gitignore
+├── LICENSE
 └── README.md
+
 ```
 
 ## 4. Environment
@@ -89,7 +94,7 @@ The environment name should match the name defined in `environment.yml`.
 
 The shared preprocessing notebook is located at:
 
-`notebooks/00_shared_preprocessing.ipynb`
+`src/preprocessing/00_shared_preprocessing.ipynb`
 
 It performs:
 
@@ -129,22 +134,38 @@ For consistent team EDA results, team members should use the same agreed-upon da
 
 ## 6. How to Run
 
-Create and activate the project environment, then launch Jupyter:
+Clone the repository and navigate to the project root directory.
+
+Create and activate the Conda environment:
 
 ```bash
+conda env create -f environment.yml
 conda activate data1030
-cd notebooks
+```
+
+Launch Jupyter Notebook:
+
+```bash
 jupyter notebook
 ```
-Run these commands from the repository root. The preprocessing notebook assumes the current working directory is notebooks/.
 
-Open `notebooks/00_shared_preprocessing.ipynb` and run all cells in order.
+The shared preprocessing notebook is located at:
 
-The notebook retrieves complaint data from the NHTSA API and saves the processed dataset to:
+`src/preprocessing/00_shared_preprocessing.ipynb`
+
+The EDA notebooks are located at:
+
+- `src/analysis/01_EDA.ipynb`
+- `src/analysis/02_EDA.ipynb`
+- `src/analysis/03_EDA.ipynb`
+
+The shared preprocessing notebook generates:
 
 `data/processed/complaints_clean.csv`
 
-The notebook currently assumes its working directory is `notebooks/`. Check the printed project root before running the data collection and export steps.
+**Note:** The notebooks have been moved into the `src/` directory. Their file paths and working-directory assumptions should be checked before rerunning the complete workflow.
+
+For consistent EDA results, use the same validated data snapshot.
 
 ## 7. Team Collaboration
 
@@ -167,7 +188,7 @@ See `data/data_contract.md` for shared data conventions and preprocessing rules.
 - [x] Initial cleaned complaint dataset
 - [x] Data collection date and filing date coverage documentation
 - [ ] Additional vehicle matching and date validation checks
-- [ ] Exploratory Data Analysis (EDA)
+- [x] Initial Exploratory Data Analysis (EDA)
 - [ ] Investigation data collection and matching
 - [ ] Feature engineering and modeling dataset
 - [ ] Machine learning models and evaluation
