@@ -1,0 +1,105 @@
+make,model_family,model_year,action_number,action_type,open_date,subject
+FORD,ESCAPE,2015.0,PE16001,PE,2016-01-16,Door Latch Failure
+FORD,F-150,2015.0,RQ16001,RQ,2016-09-28,Brake Master Cylinder Failure
+FORD,F-150,2016.0,RQ16001,RQ,2016-09-28,Brake Master Cylinder Failure
+FORD,F-150,2015.0,AQ17001,AQ,2017-01-04,Champion Ford Edinboro / Steering Shaft
+VOLKSWAGEN,TIGUAN,2018.0,PE18001,PE,2018-01-10,Seat Belt Webbing Failure
+VOLKSWAGEN,TIGUAN,2018.0,EA18005,EA,2018-07-03,Seat Belt Webbing Failure
+FORD,F-150,2015.0,PE18008,PE,2018-08-03,Seatbelt Pretensioner Fire
+FORD,F-150,2016.0,PE18008,PE,2018-08-03,Seatbelt Pretensioner Fire
+FORD,F-150,2018.0,PE18008,PE,2018-08-03,Seatbelt Pretensioner Fire
+FORD,F-150,2017.0,PE18008,PE,2018-08-03,Seatbelt Pretensioner Fire
+NISSAN,ALTIMA,2018.0,PE18013,PE,2018-12-01,Rear Suspension Control Arm Failure
+NISSAN,ALTIMA,2016.0,PE18013,PE,2018-12-01,Rear Suspension Control Arm Failure
+NISSAN,ALTIMA,2015.0,PE18013,PE,2018-12-01,Rear Suspension Control Arm Failure
+NISSAN,ALTIMA,2017.0,PE18013,PE,2018-12-01,Rear Suspension Control Arm Failure
+HONDA,CIVIC,2015.0,EA19001,EA,2019-04-19,Electrical overstress
+NISSAN,ALTIMA,2017.0,EA19002,EA,2019-07-29,Rear Suspension Control Arm Failure
+NISSAN,ALTIMA,2018.0,EA19002,EA,2019-07-29,Rear Suspension Control Arm Failure
+NISSAN,ALTIMA,2016.0,EA19002,EA,2019-07-29,Rear Suspension Control Arm Failure
+NISSAN,ALTIMA,2015.0,EA19002,EA,2019-07-29,Rear Suspension Control Arm Failure
+FORD,ESCAPE,2015.0,RQ19005,RQ,2019-12-19,Door Latch Failures
+MERCEDES-BENZ,C-CLASS,2019.0,PE21001,PE,2021-01-08,Front Roof Panel Detachment
+MERCEDES-BENZ,C-CLASS,2016.0,PE21001,PE,2021-01-08,Front Roof Panel Detachment
+MERCEDES-BENZ,C-CLASS,2018.0,PE21001,PE,2021-01-08,Front Roof Panel Detachment
+MERCEDES-BENZ,C-CLASS,2015.0,PE21001,PE,2021-01-08,Front Roof Panel Detachment
+MERCEDES-BENZ,C-CLASS,2020.0,PE21001,PE,2021-01-08,Front Roof Panel Detachment
+MERCEDES-BENZ,C-CLASS,2017.0,PE21001,PE,2021-01-08,Front Roof Panel Detachment
+FORD,ESCAPE,2020.0,RQ21002,RQ,2021-08-03,Rearview Camera FMVSS 111 Noncompliance
+FORD,F-150,2020.0,RQ21002,RQ,2021-08-03,Rearview Camera FMVSS 111 Noncompliance
+MERCEDES-BENZ,C-CLASS,2015.0,EA21002,EA,2021-09-17,Desiccated Air Bag Inflator Rupture
+MERCEDES-BENZ,C-CLASS,2016.0,EA21002,EA,2021-09-17,Desiccated Air Bag Inflator Rupture
+MERCEDES-BENZ,C-CLASS,2018.0,EA21002,EA,2021-09-17,Desiccated Air Bag Inflator Rupture
+MERCEDES-BENZ,C-CLASS,2017.0,EA21002,EA,2021-09-17,Desiccated Air Bag Inflator Rupture
+HONDA,CIVIC,2015.0,EA21002,EA,2021-09-17,Desiccated Air Bag Inflator Rupture
+NISSAN,ALTIMA,2016.0,EA21002,EA,2021-09-17,Desiccated Air Bag Inflator Rupture
+BMW,3 SERIES,2018.0,EA21002,EA,2021-09-17,Desiccated Air Bag Inflator Rupture
+NISSAN,ALTIMA,2018.0,EA21002,EA,2021-09-17,Desiccated Air Bag Inflator Rupture
+NISSAN,ALTIMA,2017.0,EA21002,EA,2021-09-17,Desiccated Air Bag Inflator Rupture
+NISSAN,ALTIMA,2015.0,EA21002,EA,2021-09-17,Desiccated Air Bag Inflator Rupture
+BMW,3 SERIES,2017.0,EA21002,EA,2021-09-17,Desiccated Air Bag Inflator Rupture
+BMW,3 SERIES,2015.0,EA21002,EA,2021-09-17,Desiccated Air Bag Inflator Rupture
+BMW,3 SERIES,2016.0,EA21002,EA,2021-09-17,Desiccated Air Bag Inflator Rupture
+HYUNDAI,ELANTRA,2015.0,DP21003,DP,2021-11-12,Throttle control system vulnerabilities
+HYUNDAI,ELANTRA,2016.0,DP21003,DP,2021-11-12,Throttle control system vulnerabilities
+FORD,ESCAPE,2021.0,AQ22002,AQ,2022-06-03,Healey Brothers Ford / Open Recall Sale
+HYUNDAI,ELANTRA,2021.0,RQ22003,RQ,2022-08-08,Seat Belt Pretensioners May Rupture
+HYUNDAI,ELANTRA,2022.0,RQ22003,RQ,2022-08-08,Seat Belt Pretensioners May Rupture
+MERCEDES-BENZ,C-CLASS,2015.0,DP22002,DP,2022-09-12,C300 Wrist-pin allegation
+HYUNDAI,ELANTRA,2017.0,DP22003,DP,2022-09-12,Loss of Motive Power 
+HYUNDAI,ELANTRA,2021.0,DP22003,DP,2022-09-12,Loss of Motive Power 
+NISSAN,ALTIMA,2019.0,AQ22003,AQ,2022-12-16,Hertz/Vehicles Rented with Open Recalls
+NISSAN,ALTIMA,2020.0,AQ22003,AQ,2022-12-16,Hertz/Vehicles Rented with Open Recalls
+NISSAN,ALTIMA,2021.0,AQ22003,AQ,2022-12-16,Hertz/Vehicles Rented with Open Recalls
+NISSAN,ALTIMA,2022.0,AQ22003,AQ,2022-12-16,Hertz/Vehicles Rented with Open Recalls
+NISSAN,ALTIMA,2018.0,AQ22003,AQ,2022-12-16,Hertz/Vehicles Rented with Open Recalls
+BMW,3 SERIES,2016.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+BMW,3 SERIES,2017.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+AUDI,Q5,2022.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+BMW,3 SERIES,2018.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+AUDI,Q5,2020.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+AUDI,Q5,2016.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+AUDI,Q5,2015.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+AUDI,Q5,2021.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+BMW,3 SERIES,2021.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+TOYOTA,CAMRY,2020.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+FORD,F-150,2019.0,PE23001,PE,2023-01-27,Windshield trim molding Item detachment
+BMW,3 SERIES,2015.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+BMW,3 SERIES,2022.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+MERCEDES-BENZ,C-CLASS,2016.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+MERCEDES-BENZ,C-CLASS,2017.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+MERCEDES-BENZ,C-CLASS,2018.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+TOYOTA,CAMRY,2016.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+TOYOTA,CAMRY,2015.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+TOYOTA,CAMRY,2018.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+TOYOTA,CAMRY,2019.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+TOYOTA,CAMRY,2021.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+TOYOTA,CAMRY,2022.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+TOYOTA,CAMRY,2017.0,DP22005,DP,2023-01-27,Pedestrian alert sounds
+BMW,3 SERIES,2018.0,EA23001,EA,2023-03-17,High pressure fuel pump failure
+BMW,3 SERIES,2017.0,EA23001,EA,2023-03-17,High pressure fuel pump failure
+BMW,3 SERIES,2016.0,EA23001,EA,2023-03-17,High pressure fuel pump failure
+HONDA,CIVIC,2023.0,PE23005,PE,2023-03-17,Momentary Increased Steering Effort
+HONDA,CIVIC,2022.0,PE23005,PE,2023-03-17,Momentary Increased Steering Effort
+BMW,3 SERIES,2015.0,EA23001,EA,2023-03-17,High pressure fuel pump failure
+FORD,ESCAPE,2020.0,PE23013,PE,2023-07-07,Failed Door Check Arm Attachment Point
+FORD,ESCAPE,2021.0,PE23013,PE,2023-07-07,Failed Door Check Arm Attachment Point
+FORD,ESCAPE,2022.0,PE23013,PE,2023-07-07,Failed Door Check Arm Attachment Point
+FORD,F-150,2022.0,EA23002,EA,2023-09-29,Loss of Motive Power
+FORD,F-150,2021.0,EA23002,EA,2023-09-29,Loss of Motive Power
+HYUNDAI,ELANTRA,2015.0,AQ23002,AQ,2023-11-17,Hyundai and Kia ABS Module Fires
+HONDA,CIVIC,2022.0,EA23003,EA,2023-11-29,Momentary Increased Steering Effort
+HONDA,CIVIC,2023.0,EA23003,EA,2023-11-29,Momentary Increased Steering Effort
+NISSAN,ALTIMA,2019.0,PE23023,PE,2023-12-13,Complete loss of motive power due to engine failure
+NISSAN,ALTIMA,2020.0,PE23023,PE,2023-12-13,Complete loss of motive power due to engine failure
+NISSAN,ALTIMA,2021.0,PE23023,PE,2023-12-13,Complete loss of motive power due to engine failure
+FORD,ESCAPE,2022.0,RQ24008,RQ,2024-04-11,Underhood fires caused by fuel leak
+FORD,F-150,2018.0,PE24019,PE,2024-07-29,Low-pressure fuel pump failure
+FORD,F-150,2022.0,PE24019,PE,2024-07-29,Low-pressure fuel pump failure
+FORD,F-150,2016.0,PE25002,PE,2025-03-21,Unintended Transmission Downshift and Rear Wheel Lock-up
+FORD,F-150,2017.0,PE25002,PE,2025-03-21,Unintended Transmission Downshift and Rear Wheel Lock-up
+FORD,F-150,2015.0,PE25002,PE,2025-03-21,Unintended Transmission Downshift and Rear Wheel Lock-up
+FORD,F-150,2016.0,EA26001,EA,2026-01-30,Unintended Transmission Downshift and Rear Wheel Lock-up
+FORD,F-150,2017.0,EA26001,EA,2026-01-30,Unintended Transmission Downshift and Rear Wheel Lock-up
+FORD,F-150,2015.0,EA26001,EA,2026-01-30,Unintended Transmission Downshift and Rear Wheel Lock-up
+HYUNDAI,ELANTRA,2016.0,EA26007,EA,2026-11-13,No Restart After Auto Start/Stop Engages

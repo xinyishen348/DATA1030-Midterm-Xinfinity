@@ -1,0 +1,45 @@
+{
+    "target": "future_investigation",
+    "sample_identifiers": [
+        "make",
+        "model_family",
+        "model_year",
+        "snapshot_date"
+    ],
+    "numeric_features": [
+        "complaints_last_12m",
+        "crash_count_12m",
+        "fire_count_12m",
+        "injuries_12m",
+        "deaths_12m",
+        "crash_rate_12m",
+        "fire_rate_12m",
+        "complaints_last_3m",
+        "complaints_last_6m",
+        "complaint_trend_3m",
+        "engine_complaints_12m",
+        "brake_complaints_12m",
+        "electrical_complaints_12m",
+        "powertrain_complaints_12m",
+        "airbag_complaints_12m",
+        "component_diversity_12m",
+        "avg_reporting_delay_12m",
+        "median_reporting_delay_12m",
+        "valid_delay_count_12m"
+    ],
+    "primary_metric": "average_precision",
+    "cv_strategy": "purged_expanding_window",
+    "cv_folds": 3,
+    "random_seeds": [
+        42,
+        123,
+        2026
+    ],
+    "notes": [
+        "Fit preprocessing only on each training fold.",
+        "Do not use the final test set for model selection.",
+        "Do not randomly shuffle temporal samples.",
+        "Preserve missing feature values before modeling.",
+        "Use the saved CV fold assignments."
+    ]
+}

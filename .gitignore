@@ -221,7 +221,6 @@ __marimo__/
 
 # DATA1030 project data
 /data/raw/
-/data/processed/
 /data/modeling/
 
 # Local credentials
@@ -231,3 +230,20 @@ __marimo__/
 
 # Jupyter temporary files
 *.nbconvert.ipynb
+
+# DATA1030 Final Project - data tracking
+# Keep raw and large intermediate data out of Git
+/data/raw/
+/data/modeling/
+/data/processed/*
+
+# Track only the modeling handoff files
+!/data/processed/modeling_dataset.csv
+!/data/processed/train.csv
+!/data/processed/test.csv
+!/data/processed/cv_fold_assignments.csv
+!/data/processed/broad_events.csv
+!/data/processed/model_config.json
+
+# Local notebook backups
+*.ipynb.bak
